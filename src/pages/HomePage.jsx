@@ -1,5 +1,5 @@
 import './header.css';
-import './homepage.css';
+import './HomePage.css';
 export function HomePage() {
   return (
    <>
@@ -193,4 +193,3 @@ export function HomePage() {
    </>
   );
 }
-export default HomePage;
