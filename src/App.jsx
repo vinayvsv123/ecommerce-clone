@@ -1,23 +1,20 @@
-import { Routes, Route } from 'react-router';
+import { Routes, Route } from 'react-router-dom';
 import { HomePage } from './pages/HomePage';
 import { CheckoutPage } from './pages/CheckoutPage';
 import { OrdersPage } from './pages/Orderspage';
+import { TrackingPage } from './pages/TrackingPage';
 
-import './App.css'
+import './App.css';
 
 function App() {
-  
-
   return (
-   <Routes>
-    <Route path= "/" element={<HomePage />} />
-    <Route path="checkout" element={<CheckoutPage />} />
-    <Route path="orders" element={<OrdersPage />} />
-    <Route path="tracking" element={<TrackingPage />} />
-   </Routes> 
-  
-   
-  )
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="checkout" element={<CheckoutPage />} />
+      <Route path="orders" element={<OrdersPage />} />
+      <Route path="tracking" element={<TrackingPage />} />
+    </Routes>
+  );
 }
-export default App
 
+export default App;
