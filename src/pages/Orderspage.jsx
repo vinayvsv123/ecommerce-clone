@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import './orderspage.css';
+import './OrdersPage.css';
 
 export function OrdersPage() {
   return (
